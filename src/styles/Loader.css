@@ -1,0 +1,21 @@
+.loader {
+    background-color: #1e1e1e;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 2rem;
+}
+
+.loader .loaderSpinner {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.loader p {
+    color: #3b82f6;
+    letter-spacing: 0.2rem;
+    font-weight: lighter;
+}

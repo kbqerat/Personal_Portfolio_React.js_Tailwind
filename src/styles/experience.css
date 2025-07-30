@@ -1,0 +1,67 @@
+.timeline-container {
+    padding: 5px 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.timeline {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.timeline-dot {
+    position: relative;
+    top: 20px;
+    border-left: 3px solid #3b82f6;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.timeline-content {
+    min-width: 800px;
+    background-color: #232323;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.timeline-date {
+    display: block;
+    font-size: 0.8rem;
+    color: #6b7280;
+    margin-bottom: 5px;
+}
+
+.experience-title {
+    font-weight: bold;
+}
+
+.experience-description {
+    margin-top: 10px;
+    font-size: small;
+}
+
+.tech-stack {
+    margin-top: 10px;
+}
+
+.tech-badge {
+    display: inline-block;
+    background: #0369a1;
+    color: #e0f2fe;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 2px 5px;
+}

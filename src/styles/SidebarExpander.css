@@ -1,0 +1,28 @@
+.sideBarSecondary {
+    position: relative;
+}
+
+.linksExpander {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-inline: 1.5rem;
+    margin-top: 5px;
+}
+.linksContainer li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 5px;
+}

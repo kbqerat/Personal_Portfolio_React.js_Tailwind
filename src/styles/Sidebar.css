@@ -1,0 +1,27 @@
+.nav-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #cccccc;
+    transition: color 0.3s;
+}
+.nav-icon:hover {
+    color: #ffffff;
+}
+.nav-icon.active {
+    color: #ffffff;
+}
+
+.nav-icon.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 0 6px 6px 0;
+}

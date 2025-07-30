@@ -1,0 +1,47 @@
+.heading-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    user-select: none;
+}
+
+.description-text {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+.primary-button {
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    background-color: #3b82f6;
+    color: #ffffff;
+    padding-inline: 20px;
+    padding-block: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: color 0.5s ease;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.primary-button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(10, 103, 255);
+    transition: 0.5s;
+}
+.primary-button:hover::before{
+    width: 100%;
+    z-index: -1;
+}

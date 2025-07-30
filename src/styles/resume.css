@@ -1,0 +1,20 @@
+.background-gradient {
+    position: relative;
+    border-radius: 16px;
+    padding: 2px;
+    background: linear-gradient(90deg, #1e1e1e, #4f4d50, #4f4d50, #1e1e1e);
+    background-size: 300% 300%;
+    animation: gradientMove 6s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
