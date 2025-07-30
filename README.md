@@ -1,12 +1,68 @@
-# React + Vite
+# Personal_Portfolio_React.js_Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **VS Code–inspired personal portfolio** built with **React** and **Tailwind CSS**.  
+It features a clean developer-centric design and smooth animations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ⚡ **VS Code–themed UI** for a unique developer aesthetic  
+- 🎨 **Tailwind CSS** for fast and responsive styling  
+- 🌗 **Dark / Light mode toggle**  (Under development) 
+- 🎥 **Smooth animations** using Framer Motion  
+- 📂 Sections: **Projects**, **Skills**, **Contact**, **Blogs**...
+- 🔗 Easily customizable & deployable (Vercel, Netlify, GitHub Pages, etc.)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Preview
+...
+
+---
+
+## 🚀 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/Personal_Portfolio_React.js_Tailwind.git
+   cd Personal_Portfolio_React.js_Tailwind
+   ```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+4. Open in your browser at **http://localhost:5173/** (if using Vite)
+
+---
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/)  
+- [Tailwind CSS](https://tailwindcss.com/)  
+- [Framer Motion](https://www.framer.com/motion/)  
+- [Vite](https://vitejs.dev/) (for fast development)
+
+---
+
+## 📦 Deployment
+
+You can deploy this project easily on **Vercel**, **Netlify**, or **GitHub Pages**.  
+If connected to GitHub, any new push will trigger an automatic deployment (e.g., with Vercel).
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the project and submit a PR.
+
+---
+
+## 🌐 Live Demo
+
+> _live demo link available once deployed_
