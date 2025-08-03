@@ -50,7 +50,7 @@ function App() {
     return (
         <>
             <Navbar />
-            <div className="flex min-h-screen pb-6">
+            <div className="flex min-h-screen md:pb-6">
                 <Sidebar toggleSidebar={toggleSidebar} />
                 {isFolderRelatedPage && isSidebarOpen && <SidebarSecondary />}
                 <main className="flex-1 bg-[#1e1e1e] p-4 text-[#ffffff]">

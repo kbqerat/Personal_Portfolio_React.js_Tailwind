@@ -21,7 +21,7 @@ export default function SidebarSecondary() {
         }))
     }
     return (
-        <div className="sideBarSecondary flex flex-col px-2 py-1 text-sm bg-[#252526] text-[#cccccc] shadow-sm max-w-[200px]">
+        <div className="sideBarSecondary hidden md:flex flex-col px-2 py-1 text-sm bg-[#252526] text-[#cccccc] shadow-sm max-w-[200px]">
             <div className="header px-5 mb-2 mt-2">
                 <p className="uppercase">Explorer</p>
             </div>
