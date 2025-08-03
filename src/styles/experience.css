@@ -2,6 +2,7 @@
     padding: 5px 10px;
     max-width: 800px;
     margin: auto;
+    margin-block-start: 2rem;
 }
 
 .timeline {
@@ -27,7 +28,6 @@
 }
 
 .timeline-content {
-    min-width: 800px;
     background-color: #232323;
     color: white;
     padding: 15px;

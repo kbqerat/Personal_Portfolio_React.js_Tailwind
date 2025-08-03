@@ -96,6 +96,7 @@ export default function Experience() {
             prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index]
         );
     };
+
     return (
         <div className="experience selection:bg-white/20">
             <h2 className="heading-text">Industry Experience</h2>
@@ -105,10 +106,10 @@ export default function Experience() {
                     {experiences.map((exp, index) => (
                         <div className="timeline-item" key={index}>
                             <div className="timeline-dot">
-                                <div className="timeline-content">
+                                <div className="timeline-content md:min-w-[800px]">
                                     <span className="timeline-date">{exp.date}</span>
                                     <div className="experience-title flex items-center gap-1 select-none">
-                                        <VscChevronDown className={`cursor-pointer transition-transform duration-200 ${openDescriptions.includes(index) ? "rotate-180" : ""}`} onClick={() => toggleDescription(index)} />
+                                        <VscChevronDown className={`cursor-pointer text-5xl md:text-2xl transition-transform duration-200 ${openDescriptions.includes(index) ? "rotate-180" : ""}`} onClick={() => toggleDescription(index)} />
                                         <h3>{exp.role} @ {exp.company}</h3>
                                     </div>
                                     {
