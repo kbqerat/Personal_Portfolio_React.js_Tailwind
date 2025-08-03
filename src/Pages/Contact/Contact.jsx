@@ -24,12 +24,12 @@ export default function Contact() {
             </header>
 
             {/* Content */}
-            <section className="max-w-5xl mx-auto px-6 mt-12 grid lg:grid-cols-2 gap-10 pb-16">
+            <section className="max-w-5xl mx-auto px-2 md:px-6 mt-12 grid lg:grid-cols-2 gap-10 pb-16">
                 {/* Contact Info Cards */}
                 <div className="space-y-6">
                     <motion.div
                         whileHover={{ scale: 1.02 }}
-                        className="p-5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-4"
+                        className="p-2 md:p-5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-4"
                     >
                         <FaEnvelope className="text-violet-400 text-2xl" />
                         <div>
@@ -42,7 +42,7 @@ export default function Contact() {
 
                     <motion.div
                         whileHover={{ scale: 1.02 }}
-                        className="p-5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-4"
+                        className="p-2 md:p-5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-4"
                     >
                         <FaPhone className="text-sky-400 text-2xl" />
                         <div>
