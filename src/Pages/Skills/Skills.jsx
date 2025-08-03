@@ -127,7 +127,7 @@ export default function Skills() {
                 {
                     skills.map((skill, index) => (
                         <ul className="skills-items">
-                            <li className="skill-item">
+                            <li className="skill-item md:ps-5">
                                 <span className="skill-field">{skill.field}</span>
                                 <ul className="skill-name-container">
                                     {skill.skills.map((skill) => (
