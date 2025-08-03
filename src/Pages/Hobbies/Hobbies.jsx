@@ -79,9 +79,9 @@ export default function Hobbies() {
     return (
         <main className="min-h-screen text-white selection:bg-white/20 pb-16">
             {/* HERO */}
-            <header className="max-w-6xl mx-auto px-6 pt-3">
+            <header className="max-w-6xl mx-auto md:px-6 pt-3">
                 <p className="heading-text">Hobbies Explorer</p>
-                <h1 className="text-3xl font-semibold mt-10 leading-tight">
+                <h1 className="text-2xl md:text-3xl font-semibold mt-5 md:mt-10 leading-tight">
                     Explore my <span className="bg-clip-text text-transparent bg-gradient-to-r from-violet-400 to-sky-400">passions</span> with a single click
                 </h1>
                 <p className="opacity-70 mt-3 max-w-2xl">
@@ -108,7 +108,7 @@ export default function Hobbies() {
                                 <button
                                     key={cat.id}
                                     onClick={() => toggleCat(cat.id)}
-                                    className={`whitespace-nowrap px-3 py-1.5 rounded-full border text-sm transition
+                                    className={`whitespace-nowrap px-1 py-1.5 rounded-full border text-sm transition
                     ${active ? "border-white/30 bg-white/10" : "border-white/10 hover:border-white/20"}`}
                                 >
                                     <span className="mr-1">{cat.icon}</span>{cat.id}
